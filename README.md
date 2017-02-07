@@ -33,8 +33,7 @@ to automatically dispatch to the production build.
 You will need an external web server for use as a media server when running a test build I do not know
 if this is the same in a production build.
 
-Somewhere in the configuration files you can specify the flex_sdk dir but for the life of me I cannot
-recall where I saw it(If I find it later i'll change this).
+The flex sdk can be set in etc/build_settings.properties.dist by changing the variable flexsdk.dir.
 
 
 
