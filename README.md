@@ -18,6 +18,26 @@ then you're going to have a long hard road in front of you.
 
 Good luck!
 
+## Thoughts and Notes and Suggestions(Mostly theory or what I know from working with it.)
+I've had the best luck building this project under Ubuntu 14.04 but it should work fine under
+Lubuntu 14.04. Postgresql caused me quite a bit of grief while trying to set up a working server
+under a slax based build so beware of that.
+
+You've probably noticed that some of the folders share the same names as some files in the root
+directory of a linux instalation. This appears to be the default setup that Whirled/msoy ran under
+in a production environment.
+
+Another thing to not is that the .in files in the etc folder are templates used by the build process
+to automatically dispatch to the production build.
+
+You will need an external web server for use as a media server when running a test build I do not know
+if this is the same in a production build.
+
+Somewhere in the configuration files you can specify the flex_sdk dir but for the life of me I cannot
+recall where I saw it(If I find it later i'll change this).
+
+
+
 ## Building
 
 The code is built with the [Ant] build tool. The main build target is `distall`, invoked like so:
