@@ -35,7 +35,9 @@ if this is the same in a production build.
 
 The flex sdk can be set in etc/build_settings.properties.dist by changing the variable flexsdk.dir.
 
-
+Once you have a test instance up and running you can browse to hostname.com/status/report to get a report
+which appears to be in a yaml supported encoding or something simillar. You obviously must change hostname 
+to your domain or IP Address.
 
 ## Building
 
